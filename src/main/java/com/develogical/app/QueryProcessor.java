@@ -8,6 +8,12 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
+        else if (query.toLowerCase().contains("newton")) {
+            return "Sir Isaac Newton PRS (25 December 1642 – 20 March 1726) was an English physicist " +
+                    "and mathematician (described in his own day as a \"natural philosopher\") who is widely " +
+                    "recognised as one of the most influential scientists of all time and a key figure in the " +
+                    "scientific revolution.";
+        }
         return "";
     }
 }
